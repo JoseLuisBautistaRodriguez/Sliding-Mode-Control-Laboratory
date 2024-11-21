@@ -1,2 +1,6 @@
+# Ignorar todas las imagenes
 *.jpg
 *.png
+
+# Carpetas
+sample/
