@@ -13,11 +13,11 @@
   <meta name="msapplication-tap-highlight" content="no">
   
   <link rel="apple-touch-icon" sizes="180x180" href="https://i.postimg.cc/TwHbkPJ9/apple-icon-180x180.png">
-  <link href="./assets/LSMD.ico" rel="icon">
+  <link href="../../assets/LSMD.ico" rel="icon">
 
   <title>Colaboradores</title>  
 
-<link href="./main.3f6952e4.css" rel="stylesheet"></head>
+<link href="../../main.3f6952e4.css" rel="stylesheet"></head>
 
 <body class="">
 <div id="site-border-left"></div>
@@ -384,15 +384,15 @@
 
 --> 
 <script>
-  // Cargar el menú dinámicamente
+  // Menú dinámico en la barra de navegación
   document.addEventListener("DOMContentLoaded", function () {
-    fetch('./components/menu.html')
-      .then(response => response.text())
-      .then(html => {
-        document.getElementById('menu-placeholder').innerHTML = html;
-      })
-      .catch(error => console.error('Error cargando el menú:', error));
-  });
+          fetch('../../assets/components/menu_02.html')
+            .then(response => response.text())
+            .then(html => {
+              document.getElementById('menu-placeholder').innerHTML = html;
+            })
+            .catch(error => console.error('Error cargando el menú:', error));
+        });
 </script>
 <script type="text/javascript" src="./main.70a66962.js"></script></body>
 
