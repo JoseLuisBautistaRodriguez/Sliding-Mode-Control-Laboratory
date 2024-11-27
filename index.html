@@ -317,7 +317,7 @@
     <script>
       // Cargar el menú dinámicamente
       document.addEventListener("DOMContentLoaded", function () {
-        fetch('./components/menu.html')
+        fetch('./assets/components/menu.html')
           .then(response => response.text())
           .then(html => {
             document.getElementById('menu-placeholder').innerHTML = html;
